@@ -5,6 +5,9 @@ const CardList = ({ kittens }) => {
 	const cardsArray = kittens.map((user,i) => {
 		return <Card key={i} id={kittens[i].id} name={kittens[i].name} email={kittens[i].email}/>
 	});
+	if (true) {
+		throw new Error('Nooooo!');
+	}
 	return (
 		<div>
 			{cardsArray}
