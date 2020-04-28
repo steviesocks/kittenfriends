@@ -1,0 +1,11 @@
+@font-face {
+font-family: 'Cheri';
+font-style: normal;
+font-weight: normal;
+src: local('Cheri'), url('CHERI___.woff') format('woff');
+}
+
+h1 {
+	font-family: 'Cheri';
+	color: #fff9d3;
+}
